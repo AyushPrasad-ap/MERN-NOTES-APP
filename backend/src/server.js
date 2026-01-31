@@ -4,7 +4,7 @@ import cors from 'cors';
 
 import { connectDB } from './config/db.js';
 import notesRoutes from './routes/notesRoutes.js';
-import rateLimiter from './middleware/ratelimiter.js';
+import rateLimiter from './middleware/rateLimiter.js';
 import path from 'path';
 
 dotenv.config();
